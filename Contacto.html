@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+<head>
+<title> CONTACTO </title> 
+
+</head>
+
+<body>
+
+<header>
+	
+	<nav>
+		<a href="Inicio.html">INICIO</a>
+		<a href="Portafolio.html">PORTAFOLIO</a>
+		<a href="Contacto.html">CONTACTO</a>
+	</nav>
+	
+	<img src="contacto.png" alt="logo contacto">
+	
+	<h1> CONTACTO </h1>
+	
+	
+</header>
+
+
+<main>
+	<h2> ÍNDICE (con redireccionamiento a las secciones)</h2>
+
+
+		<a href="#Formulario"> Formulario </a>
+		<br/>
+		<a href="#Datos"> Datos de contacto </a>
+		
+	<br><br>
+
+	<body>
+		<h3>FORMULARIO</h3>
+		<p>Rellena el formulario para saber así sus datos y poder contactar en un futuro</p>
+		<form action="server.php" method="get">
+			<fieldset>
+				<legend>DATOS</legend>
+				<label for="id-nombre">Nombre: </label>
+				<input type="text" name="nombre" id="id-nombre">
+				<br><br>
+				<label for="id-nombre">Primer apellido: </label>
+				<input type="text" name="apellido1" id="id-apellido1">
+				<br><br>
+				<label for="id-nombre">Segundo apellido: </label>
+				<input type="text" name="apellido2" id="id-apellido2">
+				<br><br>
+				<p>Indique género</p>
+				<input type="radio" id="hombre" name="hombre" value="1" checked>
+				<label for="hombre">Hombre </label> 
+				<input type="radio" id="mujer" name="mujer" value="0">
+				<label for="mujer">Mujer </label>
+				<br><br>
+				<label for="id-email">Email: </label>
+				<input type="email" name="email" id="id-email">
+				<br><br>
+			</fieldset>
+			
+			<input type="submit" name="enviar" value="ENVIAR">
+			<input type="reset" name="restablecer" value="RESTABLECER">
+		</form>
+	
+
+	<h3 id="Datos"> MIS DATOS DE CONTACTO</h3>
+		<h4>NOMBRE </h4>
+		<p> Olaia </p>
+		<br/>
+		<h4>APELLIDOS </h4>
+		<p> Salbide Baile</p>
+		<br/>
+		<h4>GMAIL </h4>
+		<p> olaiasalbide@gmail.com</p>
+		<br/>
+		<h4>Nº TELEFONO </h4>
+		<p> 648829217</p>
+		<br/>
+		<h4>GÉNERO </h4>
+		<p> Mujer </p>
+
+	
+
+</main>
+
+
+
+</body>
+
+</html>
